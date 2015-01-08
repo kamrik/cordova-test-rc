@@ -1,7 +1,7 @@
 # cordova-test-rc
 A fixture for testing cordova-lib release candidates using mobilespec.
  - Uses local installation of cordova-lib to avoid `npm install -g ...`
- - Uses latest public releases of platforms and plugins. You may want to remove the `~/.cordova` and `~/.plugman` directories to avoid using cached versions.
+ - Uses latest public releases of platforms and plugins. A fake local dir is used as HOME to avoid cached versions from `~/.cordova` and `~/.plugman`.
  - Does not exercise cordova-cli and plugman.
 
 ## Usage
