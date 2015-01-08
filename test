@@ -1,0 +1,5 @@
+#!/bin/bash
+npm install
+git clone https://git-wip-us.apache.org/repos/asf/cordova-mobile-spec.git
+git clone https://git-wip-us.apache.org/repos/asf/cordova-plugin-test-framework.git
+time node rctest.js
