@@ -9,6 +9,9 @@ var path = require('path');
 var fs = require("fs");
 var shelljs = require('shelljs');
 
+// Use fake home dir to avoid using cached versions of plugins and platforms.
+process.env.HOME = path.join(__dirname, 'home');
+
 var cordova_lib = require('cordova-lib');
 var cdv = cordova_lib.cordova.raw;
 
