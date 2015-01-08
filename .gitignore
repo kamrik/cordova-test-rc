@@ -26,3 +26,8 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+CordovaProject
+cordova-mobile-spec
+cordova-plugin-test-framework
+home
